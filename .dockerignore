@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+.git
+.gitignore
+.env*
+!.env.example
+*.tsbuildinfo
+test-results
+playwright-report
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+README.md
+docs
+tests

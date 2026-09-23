@@ -1,0 +1,1508 @@
+{
+  "sources": [
+    {
+      "id": "hayami-agency",
+      "title": "I'm Enterprise · 早見沙織",
+      "source_url": "https://www.imenterprise.jp/profile.php?id=74",
+      "source_type": "official-agency",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "hayami-music",
+      "title": "早見沙織 · BIOGRAPHY",
+      "source_url": "https://hayamisaoriofficial.com/biography/",
+      "source_type": "official-person",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "hayami-garden",
+      "title": "早見沙織 · GARDEN",
+      "source_url": "https://hayamisaoriofficial.com/discography/post-12/",
+      "source_type": "official-person",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "tsuda-official",
+      "title": "津田健次郎 · Official Website",
+      "source_url": "https://tsudaken.jp/",
+      "source_type": "official-person",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "hanazawa-agency",
+      "title": "大沢事務所 · 花澤香菜",
+      "source_url": "https://osawa-inc.co.jp/women/hanazawakana/",
+      "source_type": "official-agency",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "miyano-official",
+      "title": "宮野真守 · PROFILE",
+      "source_url": "https://miyanomamoru.com/s/mm0608/page/profile",
+      "source_type": "official-person",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "miyano-agency",
+      "title": "研音 · 宮野真守",
+      "source_url": "https://www.ken-on.co.jp/artists/miyano/",
+      "source_type": "official-agency",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "yuki-agency",
+      "title": "青二プロダクション · 悠木碧",
+      "source_url": "https://www.aoni.co.jp/search/yuki-aoi.html",
+      "source_type": "official-agency",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "takahashi-agency",
+      "title": "81 Produce · 高橋李依",
+      "source_url": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236",
+      "source_type": "official-agency",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "ogata-official",
+      "title": "緒方恵美 · PROFILE",
+      "source_url": "https://www.emou.net/profile/",
+      "public_url": "https://emou.net/",
+      "source_type": "official-person",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "ogata-home",
+      "title": "緒方恵美 · Official Website",
+      "source_url": "https://emou.net/",
+      "source_type": "official-person",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "nozawa-agency",
+      "title": "青二プロダクション · 野沢雅子",
+      "source_url": "https://www.aoni.co.jp/search/nozawa-masako.html",
+      "source_type": "official-agency",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "awards-10",
+      "title": "第十回 声優アワード",
+      "source_url": "https://www.seiyuawards.jp/winning/winning_10/index.php",
+      "source_type": "official-award",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "silent-voice",
+      "title": "映画 聲の形 · 2016年8月公式ニュース",
+      "source_url": "https://koenokatachi-movie.com/sp/news/?page=23",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "spy-family",
+      "title": "SPY×FAMILY · TV SERIES",
+      "source_url": "https://spy-family.net/tvseries/",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "spy-2022",
+      "title": "SPY×FAMILY · 2022年公式ニュース",
+      "source_url": "https://spy-family.net/news/?p=659",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "kimetsu",
+      "title": "鬼滅の刃 · 竈門炭治郎 立志編",
+      "source_url": "https://kimetsu.com/anime/risshihen/character/",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "jujutsu",
+      "title": "呪術廻戦 · CHARACTER",
+      "source_url": "https://jujutsukaisen.jp/character/",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "kusuri",
+      "title": "薬屋のひとりごと · Season 1",
+      "source_url": "https://kusuriyanohitorigoto.jp/season1/",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "miyano-works-2008",
+      "title": "宮野真守 · WORKS 2008",
+      "source_url": "https://miyanomamoru.com/s/mm0608/diary/works/list?dy=2008",
+      "source_type": "official-person",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "ogata-agency",
+      "title": "Breathe Arts · 緒方恵美",
+      "source_url": "https://breathearts.jp/talent-list/ogata",
+      "source_type": "official-agency",
+      "retrieved_at": "2026-09-21",
+      "verified": true,
+      "confidence": "high"
+    }
+  ],
+  "agencies": [
+    {
+      "id": "im-enterprise",
+      "name": "I'm Enterprise",
+      "url": "https://www.imenterprise.jp/"
+    },
+    {
+      "id": "andstir",
+      "name": "ANDSTIR",
+      "url": "https://tsudaken.jp/"
+    },
+    {
+      "id": "osawa",
+      "name": "大沢事務所",
+      "url": "https://osawa-inc.co.jp/"
+    },
+    {
+      "id": "ken-on",
+      "name": "研音 · KEN ON",
+      "url": "https://www.ken-on.co.jp/"
+    },
+    {
+      "id": "aoni",
+      "name": "青二プロダクション",
+      "url": "https://www.aoni.co.jp/"
+    },
+    {
+      "id": "81-produce",
+      "name": "81 Produce",
+      "url": "https://www.81produce.co.jp/"
+    },
+    {
+      "id": "breathe-arts",
+      "name": "Breathe Arts",
+      "url": "https://breathearts.jp/"
+    }
+  ],
+  "seiyuu": [
+    {
+      "id": "saori-hayami",
+      "slug": "saori-hayami",
+      "names": {
+        "ja": "早見 沙織",
+        "kana": "はやみ さおり",
+        "romaji": "Saori Hayami",
+        "zh": "早见沙织"
+      },
+      "aliases": ["Hayami Saori", "早見沙織", "はやみさおり", "ハヤミサオリ"],
+      "agencyId": "im-enterprise",
+      "birth": {
+        "month": 5,
+        "day": 29
+      },
+      "birthplace": "東京都",
+      "gender": "female",
+      "kanaGroup": "は",
+      "color": "wine",
+      "tagline": {
+        "zh-CN": "声音的温度，在角色之间。",
+        "ja-JP": "ひとつの声、いくつもの物語。",
+        "en": "One voice. Many worlds."
+      },
+      "introduction": {
+        "zh-CN": "从《SPY×FAMILY》的约尔，到《声之形》的西宫硝子，早见沙织的出演跨越电视动画、电影与游戏。她也在广播与音乐中，以自己的名字讲述故事。",
+        "ja-JP": "『SPY×FAMILY』のヨルから『聲の形』の西宮硝子まで。テレビアニメ、映画、ゲームに出演し、ラジオと音楽でも活動している。",
+        "en": "From Yor in SPY×FAMILY to Shoko Nishimiya in A Silent Voice, Saori Hayami works across animation, film and games, alongside radio and music."
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["hayami-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["hayami-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["hayami-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["hayami-agency", "hayami-music"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "gender": {
+          "sourceIds": ["awards-10"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["hayami-agency", "hayami-music"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [
+        {
+          "year": 2015,
+          "title": {
+            "zh-CN": "用自己的名字歌唱",
+            "ja-JP": "アーティストとしての始まり",
+            "en": "A musical beginning"
+          },
+          "description": {
+            "zh-CN": "以《やさしい希望》开启个人音乐活动。",
+            "ja-JP": "「やさしい希望」でアーティストデビュー。",
+            "en": "Made her artist debut with Yasashii Kibou."
+          },
+          "sourceIds": ["hayami-garden"]
+        },
+        {
+          "year": 2016,
+          "title": {
+            "zh-CN": "走进《声之形》",
+            "ja-JP": "『聲の形』へ",
+            "en": "A Silent Voice"
+          },
+          "description": {
+            "zh-CN": "为西宫硝子配音。",
+            "ja-JP": "西宮硝子役で出演。",
+            "en": "Voiced Shoko Nishimiya."
+          },
+          "sourceIds": ["silent-voice"]
+        },
+        {
+          "year": 2020,
+          "title": {
+            "zh-CN": "两张迷你专辑",
+            "ja-JP": "ふたつのミニアルバム",
+            "en": "Two new records"
+          },
+          "description": {
+            "zh-CN": "发行《シスターシティーズ》与《GARDEN》。",
+            "ja-JP": "『シスターシティーズ』『GARDEN』をリリース。",
+            "en": "Released Sister Cities and GARDEN."
+          },
+          "sourceIds": ["hayami-music"]
+        },
+        {
+          "year": 2023,
+          "title": {
+            "zh-CN": "白与花束",
+            "ja-JP": "白と花束",
+            "en": "Shiro to Hanataba"
+          },
+          "description": {
+            "zh-CN": "发行第三张专辑《白と花束》。",
+            "ja-JP": "3rdアルバム『白と花束』をリリース。",
+            "en": "Released her third album, Shiro to Hanataba."
+          },
+          "sourceIds": ["hayami-music"]
+        }
+      ],
+      "activities": [
+        {
+          "id": "hayami-music-debut",
+          "kind": "music",
+          "title": "やさしい希望",
+          "detail": {
+            "zh-CN": "个人出道单曲 · 2015.08.12",
+            "ja-JP": "デビューシングル · 2015.08.12",
+            "en": "Debut single · 2015.08.12"
+          },
+          "sourceIds": ["hayami-garden"]
+        },
+        {
+          "id": "hayami-radio",
+          "kind": "radio",
+          "title": "早見沙織のふり～すたいる♪",
+          "detail": {
+            "zh-CN": "广播节目",
+            "ja-JP": "ラジオ番組",
+            "en": "Radio programme"
+          },
+          "sourceIds": ["hayami-agency"]
+        },
+        {
+          "id": "hayami-game",
+          "kind": "game",
+          "title": "原神",
+          "detail": {
+            "zh-CN": "神里绫华 · 日语配音",
+            "ja-JP": "神里綾華 · 日本語音声",
+            "en": "Kamisato Ayaka · Japanese voice"
+          },
+          "sourceIds": ["hayami-agency"]
+        },
+        {
+          "id": "hayami-narration",
+          "kind": "narration",
+          "title": "地球ドラマチック",
+          "detail": {
+            "zh-CN": "NHK · 旁白",
+            "ja-JP": "NHK · ナレーション",
+            "en": "NHK · Narration"
+          },
+          "sourceIds": ["hayami-agency"]
+        },
+        {
+          "id": "hayami-award",
+          "kind": "award",
+          "title": "第十回 声優アワード",
+          "detail": {
+            "zh-CN": "助演女优奖",
+            "ja-JP": "助演女優賞",
+            "en": "Best Supporting Actress"
+          },
+          "sourceIds": ["awards-10", "hayami-agency"]
+        }
+      ],
+      "sourceIds": [
+        "hayami-agency",
+        "hayami-music",
+        "hayami-garden",
+        "awards-10",
+        "silent-voice"
+      ],
+      "officialUrl": "https://hayamisaoriofficial.com/",
+      "voiceUrl": "https://www.imenterprise.jp/profile.php?id=74",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": []
+    },
+    {
+      "id": "kenjiro-tsuda",
+      "slug": "kenjiro-tsuda",
+      "names": {
+        "ja": "津田 健次郎",
+        "kana": "つだ けんじろう",
+        "romaji": "Kenjiro Tsuda",
+        "zh": "津田健次郎"
+      },
+      "aliases": ["Tsuda Kenjiro", "Tsuda Kenjirou", "津田健次郎"],
+      "agencyId": "andstir",
+      "birth": {
+        "month": 6,
+        "day": 11
+      },
+      "birthplace": "大阪府",
+      "gender": "male",
+      "kanaGroup": "た",
+      "color": "sage",
+      "tagline": {
+        "zh-CN": "在声音与镜头之间。",
+        "ja-JP": "声と、映像のあいだ。",
+        "en": "Between voice and screen."
+      },
+      "introduction": {
+        "zh-CN": "七海建人、海马濑人，以及动画之外的旁白与真人表演。津田健次郎也以导演与创作者的身份，站在镜头的另一侧。",
+        "ja-JP": "七海建人、海馬瀬人。声優、ナレーター、俳優として活動し、監督・脚本にも携わる。",
+        "en": "The voice of Kento Nanami and Seto Kaiba, Tsuda also works in narration, live-action performance, directing and writing."
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["tsuda-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["tsuda-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["tsuda-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["tsuda-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "gender": {
+          "sourceIds": ["tsuda-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["tsuda-official"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [],
+      "activities": [
+        {
+          "id": "tsuda-radio",
+          "kind": "radio",
+          "title": "津田健次郎 SPEA/KING",
+          "detail": {
+            "zh-CN": "TOKYO FM · 广播",
+            "ja-JP": "TOKYO FM · ラジオ",
+            "en": "TOKYO FM · Radio"
+          },
+          "sourceIds": ["tsuda-official"]
+        },
+        {
+          "id": "tsuda-narration",
+          "kind": "narration",
+          "title": "エール",
+          "detail": {
+            "zh-CN": "NHK 连续电视小说 · 旁白",
+            "ja-JP": "NHK連続テレビ小説 · 語り",
+            "en": "NHK television drama · Narration"
+          },
+          "sourceIds": ["tsuda-official"]
+        },
+        {
+          "id": "tsuda-award",
+          "kind": "award",
+          "title": "第十五回 声優アワード",
+          "detail": {
+            "zh-CN": "主演男优奖（2020年度）",
+            "ja-JP": "主演男優賞（2020年度）",
+            "en": "Best Lead Actor (2020 award year)"
+          },
+          "sourceIds": ["tsuda-official"]
+        }
+      ],
+      "sourceIds": ["tsuda-official"],
+      "officialUrl": "https://tsudaken.jp/",
+      "voiceUrl": "https://tsudaken.jp/#profile",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": []
+    },
+    {
+      "id": "kana-hanazawa",
+      "slug": "kana-hanazawa",
+      "names": {
+        "ja": "花澤 香菜",
+        "kana": "はなざわ かな",
+        "romaji": "Kana Hanazawa",
+        "zh": "花泽香菜"
+      },
+      "aliases": ["Hanazawa Kana", "花澤香菜", "花泽香菜"],
+      "agencyId": "osawa",
+      "birth": {
+        "month": 2,
+        "day": 25
+      },
+      "birthplace": "東京都",
+      "gender": "female",
+      "kanaGroup": "は",
+      "color": "sand",
+      "tagline": {
+        "zh-CN": "在故事里，再次相遇。",
+        "ja-JP": "物語のなかで、また出会う。",
+        "en": "Another meeting, another story."
+      },
+      "introduction": {
+        "zh-CN": "从《PSYCHO-PASS》的常守朱，到《鬼灭之刃》的甘露寺蜜璃。花泽香菜的工作也延伸至广播节目《花澤香菜のひとりでできるかな？》。",
+        "ja-JP": "『PSYCHO-PASS』の常守朱、『鬼滅の刃』の甘露寺蜜璃などを担当。ラジオ『花澤香菜のひとりでできるかな？』でも活動。",
+        "en": "Her credits include Akane Tsunemori in PSYCHO-PASS and Mitsuri Kanroji in Demon Slayer, alongside her radio programme Hitori de Dekiru Kana?"
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["hanazawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["hanazawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["hanazawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["hanazawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "gender": {
+          "sourceIds": ["hanazawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["hanazawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [],
+      "activities": [
+        {
+          "id": "hanazawa-radio",
+          "kind": "radio",
+          "title": "花澤香菜のひとりでできるかな？",
+          "detail": {
+            "zh-CN": "广播节目",
+            "ja-JP": "ラジオ番組",
+            "en": "Radio programme"
+          },
+          "sourceIds": ["hanazawa-agency"]
+        }
+      ],
+      "sourceIds": ["hanazawa-agency"],
+      "officialUrl": "https://osawa-inc.co.jp/women/hanazawakana/",
+      "voiceUrl": "https://osawa-inc.co.jp/women/hanazawakana/",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": []
+    },
+    {
+      "id": "mamoru-miyano",
+      "slug": "mamoru-miyano",
+      "names": {
+        "ja": "宮野 真守",
+        "kana": "みやの まもる",
+        "romaji": "Mamoru Miyano",
+        "zh": "宫野真守"
+      },
+      "aliases": ["Miyano Mamoru", "宮野真守"],
+      "agencyId": "ken-on",
+      "birth": {
+        "year": 1983,
+        "month": 6,
+        "day": 8
+      },
+      "birthplace": "埼玉県",
+      "debutYear": 2001,
+      "kanaGroup": "ま",
+      "color": "indigo",
+      "tagline": {
+        "zh-CN": "声音，也属于舞台。",
+        "ja-JP": "声は、舞台へと続く。",
+        "en": "A voice that takes the stage."
+      },
+      "introduction": {
+        "zh-CN": "2001 年通过海外剧集吹替开启声优生涯。宫野真守的工作横跨动画、电影吹替、音乐与音乐剧，所属研音。",
+        "ja-JP": "2001年、海外ドラマの吹き替えで声優デビュー。アニメ、洋画吹替、音楽、ミュージカルなど幅広く活動。研音所属。",
+        "en": "Miyano began voice acting through a foreign television dub in 2001. His work spans animation, film dubbing, music and musicals. He is represented by KEN ON."
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["miyano-official", "miyano-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["miyano-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["miyano-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["miyano-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "debutYear": {
+          "sourceIds": ["miyano-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["miyano-official", "miyano-agency"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [
+        {
+          "year": 2001,
+          "title": {
+            "zh-CN": "声音的起点",
+            "ja-JP": "声優としての始まり",
+            "en": "A voice acting debut"
+          },
+          "description": {
+            "zh-CN": "海外剧集《私はケイトリン》日语吹替。",
+            "ja-JP": "海外ドラマ『私はケイトリン』の吹き替え。",
+            "en": "Japanese dubbing for Caitlin's Way."
+          },
+          "sourceIds": ["miyano-official"]
+        },
+        {
+          "year": 2007,
+          "title": {
+            "zh-CN": "开启艺人活动",
+            "ja-JP": "アーティストデビュー",
+            "en": "Artist debut"
+          },
+          "sourceIds": ["miyano-official"]
+        }
+      ],
+      "activities": [
+        {
+          "id": "miyano-stage",
+          "kind": "stage",
+          "title": "ジョジョの奇妙な冒険 ファントムブラッド",
+          "detail": {
+            "zh-CN": "音乐剧 · 迪奥·布兰度",
+            "ja-JP": "ミュージカル · ディオ・ブランドー",
+            "en": "Musical · Dio Brando"
+          },
+          "sourceIds": ["miyano-official"]
+        },
+        {
+          "id": "miyano-music",
+          "kind": "music",
+          "title": "MAMORU MIYANO LIVE",
+          "detail": {
+            "zh-CN": "个人演唱会活动",
+            "ja-JP": "ソロライブ活動",
+            "en": "Solo live performances"
+          },
+          "sourceIds": ["miyano-official"]
+        }
+      ],
+      "sourceIds": ["miyano-official", "miyano-agency", "miyano-works-2008"],
+      "officialUrl": "https://miyanomamoru.com/",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": []
+    },
+    {
+      "id": "aoi-yuki",
+      "slug": "aoi-yuki",
+      "names": {
+        "ja": "悠木 碧",
+        "kana": "ゆうき あおい",
+        "romaji": "Aoi Yuki",
+        "zh": "悠木碧"
+      },
+      "aliases": ["Yuuki Aoi", "Yuki Aoi", "Aoi Yuuki", "Aoi Yūki", "悠木碧"],
+      "agencyId": "aoni",
+      "birth": {
+        "month": 3,
+        "day": 27
+      },
+      "birthplace": "千葉県",
+      "kanaGroup": "や",
+      "color": "clay",
+      "tagline": {
+        "zh-CN": "走进另一个世界。",
+        "ja-JP": "もうひとつの世界へ。",
+        "en": "Into another world."
+      },
+      "introduction": {
+        "zh-CN": "《药屋少女的呢喃》的猫猫、《魔法少女小圆》的鹿目圆，以及游戏中的佐仓双叶。悠木碧的出演连接着不同媒介的故事。",
+        "ja-JP": "『薬屋のひとりごと』の猫猫、『魔法少女まどか☆マギカ』の鹿目まどか、ゲームの佐倉双葉。異なるメディアの物語に出演。",
+        "en": "Maomao in The Apothecary Diaries, Madoka Kaname in Puella Magi Madoka Magica and Futaba Sakura in Persona 5 connect Yuki's work across media."
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["yuki-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["yuki-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["yuki-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["yuki-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["yuki-agency"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [],
+      "activities": [
+        {
+          "id": "yuki-game",
+          "kind": "game",
+          "title": "ペルソナ5",
+          "detail": {
+            "zh-CN": "佐仓双叶 · 日语配音",
+            "ja-JP": "佐倉双葉 · 日本語音声",
+            "en": "Futaba Sakura · Japanese voice"
+          },
+          "sourceIds": ["yuki-agency"]
+        }
+      ],
+      "sourceIds": ["yuki-agency"],
+      "officialUrl": "https://www.aoni.co.jp/search/yuki-aoi.html",
+      "voiceUrl": "https://www.aoni.co.jp/search/yuki-aoi.html",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": []
+    },
+    {
+      "id": "rie-takahashi",
+      "slug": "rie-takahashi",
+      "names": {
+        "ja": "高橋 李依",
+        "kana": "たかはし りえ",
+        "romaji": "Rie Takahashi",
+        "zh": "高桥李依"
+      },
+      "aliases": ["Takahashi Rie", "高橋李依"],
+      "agencyId": "81-produce",
+      "birth": {
+        "month": 2,
+        "day": 27
+      },
+      "birthplace": "埼玉県",
+      "gender": "female",
+      "kanaGroup": "た",
+      "color": "moss",
+      "tagline": {
+        "zh-CN": "让故事，有了回声。",
+        "ja-JP": "物語に、声が響く。",
+        "en": "Stories find their voice."
+      },
+      "introduction": {
+        "zh-CN": "从惠惠到爱蜜莉雅，高桥李依参与动画、游戏与广播，也以 Earphones 组合成员的身份开展活动。",
+        "ja-JP": "めぐみん、エミリアなどを担当。アニメ、ゲーム、ラジオに出演し、イヤホンズとしても活動。",
+        "en": "The voice of Megumin and Emilia, Takahashi works in animation, games and radio, and is a member of Earphones."
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["takahashi-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["takahashi-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["takahashi-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["takahashi-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "gender": {
+          "sourceIds": ["takahashi-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["takahashi-agency"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [],
+      "activities": [
+        {
+          "id": "rie-music",
+          "kind": "music",
+          "title": "イヤホンズ",
+          "detail": {
+            "zh-CN": "组合活动",
+            "ja-JP": "ユニット活動",
+            "en": "Earphones · Group activities"
+          },
+          "sourceIds": ["takahashi-agency"]
+        },
+        {
+          "id": "rie-game",
+          "kind": "game",
+          "title": "原神",
+          "detail": {
+            "zh-CN": "胡桃 · 日语配音",
+            "ja-JP": "胡桃 · 日本語音声",
+            "en": "Hu Tao · Japanese voice"
+          },
+          "sourceIds": ["takahashi-agency"]
+        },
+        {
+          "id": "rie-stage",
+          "kind": "stage",
+          "title": "乱歩奇譚 Game of Laplace",
+          "detail": {
+            "zh-CN": "舞台 · 小林",
+            "ja-JP": "舞台 · コバヤシ",
+            "en": "Stage · Kobayashi"
+          },
+          "sourceIds": ["takahashi-agency"]
+        }
+      ],
+      "sourceIds": ["takahashi-agency"],
+      "officialUrl": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236",
+      "voiceUrl": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": []
+    },
+    {
+      "id": "megumi-ogata",
+      "slug": "megumi-ogata",
+      "names": {
+        "ja": "緒方 恵美",
+        "kana": "おがた めぐみ",
+        "romaji": "Megumi Ogata",
+        "zh": "绪方惠美"
+      },
+      "aliases": ["Ogata Megumi", "緒方恵美", "绪方惠美"],
+      "agencyId": "breathe-arts",
+      "kanaGroup": "あ",
+      "color": "stone",
+      "tagline": {
+        "zh-CN": "从舞台，走进记忆。",
+        "ja-JP": "舞台から、記憶のなかへ。",
+        "en": "From the stage into memory."
+      },
+      "introduction": {
+        "zh-CN": "从音乐剧舞台转向声优工作，以《幽游白书》的藏马开启动画生涯；此后出演《新世纪福音战士》的碇真嗣，并持续参与音乐与广播。",
+        "ja-JP": "ミュージカルの舞台から声優へ。『幽☆遊☆白書』の蔵馬役でデビューし、『新世紀エヴァンゲリオン』の碇シンジなどを担当。音楽とラジオでも活動。",
+        "en": "Ogata moved from musical theatre into voice acting, debuting as Kurama in Yu Yu Hakusho and later voicing Shinji Ikari in Evangelion, alongside music and radio work."
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["ogata-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["ogata-home", "ogata-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["ogata-official"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["ogata-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["ogata-agency"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [
+        {
+          "year": 1999,
+          "title": {
+            "zh-CN": "音乐的新篇",
+            "ja-JP": "音楽の新しい章",
+            "en": "A new musical chapter"
+          },
+          "description": {
+            "zh-CN": "转入 Lantis，展开更深入的音乐活动。",
+            "ja-JP": "ランティスへ移籍し、本格的な音楽活動へ。",
+            "en": "Joined Lantis and developed her music career."
+          },
+          "sourceIds": ["ogata-official"]
+        },
+        {
+          "year": 2023,
+          "title": {
+            "zh-CN": "回望动画之声",
+            "ja-JP": "アニメの声を振り返る",
+            "en": "Returning to anime songs"
+          },
+          "description": {
+            "zh-CN": "发行《アニメグ。30th》。",
+            "ja-JP": "『アニメグ。30th』をリリース。",
+            "en": "Released Animeg. 30th."
+          },
+          "sourceIds": ["ogata-home"]
+        }
+      ],
+      "activities": [
+        {
+          "id": "ogata-music",
+          "kind": "music",
+          "title": "アニメグ。30th",
+          "detail": {
+            "zh-CN": "专辑 · 2023.02.15",
+            "ja-JP": "アルバム · 2023.02.15",
+            "en": "Album · 2023.02.15"
+          },
+          "sourceIds": ["ogata-home"]
+        },
+        {
+          "id": "ogata-radio",
+          "kind": "radio",
+          "title": "緒方恵美の銀河にほえろ!",
+          "detail": {
+            "zh-CN": "广播节目",
+            "ja-JP": "ラジオ番組",
+            "en": "Radio programme"
+          },
+          "sourceIds": ["ogata-official"]
+        }
+      ],
+      "sourceIds": ["ogata-official", "ogata-home", "ogata-agency"],
+      "officialUrl": "https://emou.net/",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/Megumi_Ogata",
+          "verifiedBySourceId": "ogata-agency"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://instagram.com/megumi_ogata_official",
+          "verifiedBySourceId": "ogata-agency"
+        },
+        {
+          "platform": "Blog",
+          "url": "https://emou.seesaa.net/",
+          "verifiedBySourceId": "ogata-agency"
+        }
+      ],
+      "birth": {
+        "month": 6,
+        "day": 6
+      },
+      "birthplace": "東京都",
+      "voiceUrl": "https://breathearts.jp/talent-list/ogata"
+    },
+    {
+      "id": "masako-nozawa",
+      "slug": "masako-nozawa",
+      "names": {
+        "ja": "野沢 雅子",
+        "kana": "のざわ まさこ",
+        "romaji": "Masako Nozawa",
+        "zh": "野泽雅子"
+      },
+      "aliases": ["Nozawa Masako", "野沢雅子", "野澤雅子"],
+      "agencyId": "aoni",
+      "birth": {
+        "month": 10,
+        "day": 25
+      },
+      "birthplace": "東京都",
+      "kanaGroup": "な",
+      "color": "ochre",
+      "tagline": {
+        "zh-CN": "陪伴，一代又一代。",
+        "ja-JP": "世代をこえて、響く声。",
+        "en": "A voice across generations."
+      },
+      "introduction": {
+        "zh-CN": "《龙珠》系列的孙悟空、孙悟饭与孙悟天，《银河铁道999》的星野铁郎。野泽雅子的履历也涵盖广播、旁白与海外作品吹替。",
+        "ja-JP": "『ドラゴンボール』シリーズの孫悟空、悟飯、悟天、『銀河鉄道999』の星野鉄郎。ラジオ、ナレーション、洋画吹替にも出演。",
+        "en": "Nozawa voices Goku, Gohan and Goten in Dragon Ball, and Tetsuro Hoshino in Galaxy Express 999. Her work also includes radio, narration and foreign-film dubbing."
+      },
+      "evidence": {
+        "names": {
+          "sourceIds": ["nozawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birth": {
+          "sourceIds": ["nozawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "birthplace": {
+          "sourceIds": ["nozawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "agencyId": {
+          "sourceIds": ["nozawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        },
+        "introduction": {
+          "sourceIds": ["nozawa-agency"],
+          "verified": true,
+          "confidence": "high"
+        }
+      },
+      "timeline": [],
+      "activities": [
+        {
+          "id": "nozawa-radio",
+          "kind": "radio",
+          "title": "野沢雅子のIN MY WORLD",
+          "detail": {
+            "zh-CN": "FM OSAKA · 主持",
+            "ja-JP": "FM OSAKA · パーソナリティ",
+            "en": "FM OSAKA · Host"
+          },
+          "sourceIds": ["nozawa-agency"]
+        },
+        {
+          "id": "nozawa-narration",
+          "kind": "narration",
+          "title": "なるほど！ザ・ワールド",
+          "detail": {
+            "zh-CN": "旁白",
+            "ja-JP": "ナレーション",
+            "en": "Narration"
+          },
+          "sourceIds": ["nozawa-agency"]
+        }
+      ],
+      "sourceIds": ["nozawa-agency"],
+      "officialUrl": "https://www.aoni.co.jp/search/nozawa-masako.html",
+      "voiceUrl": "https://www.aoni.co.jp/search/nozawa-masako.html",
+      "imageStatus": "IMAGE_LICENSE_TODO",
+      "socialLinks": []
+    }
+  ],
+  "anime": [
+    {
+      "id": "spy-family",
+      "slug": "spy-family",
+      "title": {
+        "zh-CN": "间谍过家家",
+        "ja-JP": "SPY×FAMILY",
+        "en": "SPY×FAMILY"
+      },
+      "format": "TV",
+      "year": 2022,
+      "sourceIds": ["spy-family", "spy-2022"],
+      "url": "https://spy-family.net/tvseries/"
+    },
+    {
+      "id": "demon-slayer",
+      "slug": "demon-slayer",
+      "title": {
+        "zh-CN": "鬼灭之刃",
+        "ja-JP": "鬼滅の刃",
+        "en": "Demon Slayer"
+      },
+      "format": "TV",
+      "sourceIds": ["kimetsu"],
+      "url": "https://kimetsu.com/anime/risshihen/character/"
+    },
+    {
+      "id": "a-silent-voice",
+      "slug": "a-silent-voice",
+      "title": {
+        "zh-CN": "声之形",
+        "ja-JP": "聲の形",
+        "en": "A Silent Voice"
+      },
+      "format": "Film",
+      "year": 2016,
+      "sourceIds": ["silent-voice"],
+      "url": "https://koenokatachi-movie.com/"
+    },
+    {
+      "id": "jujutsu-kaisen",
+      "slug": "jujutsu-kaisen",
+      "title": {
+        "zh-CN": "咒术回战",
+        "ja-JP": "呪術廻戦",
+        "en": "Jujutsu Kaisen"
+      },
+      "format": "TV",
+      "sourceIds": ["jujutsu", "tsuda-official"],
+      "url": "https://jujutsukaisen.jp/"
+    },
+    {
+      "id": "psycho-pass",
+      "slug": "psycho-pass",
+      "title": {
+        "zh-CN": "PSYCHO-PASS 心理测量者",
+        "ja-JP": "PSYCHO-PASS サイコパス",
+        "en": "PSYCHO-PASS"
+      },
+      "format": "TV",
+      "sourceIds": ["hanazawa-agency"],
+      "url": "https://osawa-inc.co.jp/women/hanazawakana/"
+    },
+    {
+      "id": "apothecary-diaries",
+      "slug": "apothecary-diaries",
+      "title": {
+        "zh-CN": "药屋少女的呢喃",
+        "ja-JP": "薬屋のひとりごと",
+        "en": "The Apothecary Diaries"
+      },
+      "format": "TV",
+      "sourceIds": ["kusuri", "yuki-agency"],
+      "url": "https://kusuriyanohitorigoto.jp/season1/"
+    },
+    {
+      "id": "madoka-magica",
+      "slug": "madoka-magica",
+      "title": {
+        "zh-CN": "魔法少女小圆",
+        "ja-JP": "魔法少女まどか☆マギカ",
+        "en": "Puella Magi Madoka Magica"
+      },
+      "format": "TV",
+      "sourceIds": ["yuki-agency"],
+      "url": "https://www.aoni.co.jp/search/yuki-aoi.html"
+    },
+    {
+      "id": "konosuba",
+      "slug": "konosuba",
+      "title": {
+        "zh-CN": "为美好的世界献上祝福！",
+        "ja-JP": "この素晴らしい世界に祝福を！",
+        "en": "KONOSUBA"
+      },
+      "format": "TV",
+      "sourceIds": ["takahashi-agency"],
+      "url": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236"
+    },
+    {
+      "id": "re-zero",
+      "slug": "re-zero",
+      "title": {
+        "zh-CN": "Re:从零开始的异世界生活",
+        "ja-JP": "Re:ゼロから始める異世界生活",
+        "en": "Re:ZERO"
+      },
+      "format": "TV",
+      "sourceIds": ["takahashi-agency"],
+      "url": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236"
+    },
+    {
+      "id": "evangelion",
+      "slug": "evangelion",
+      "title": {
+        "zh-CN": "新世纪福音战士",
+        "ja-JP": "新世紀エヴァンゲリオン",
+        "en": "Neon Genesis Evangelion"
+      },
+      "format": "TV",
+      "sourceIds": ["ogata-official"],
+      "url": "https://emou.net/"
+    },
+    {
+      "id": "dragon-ball",
+      "slug": "dragon-ball",
+      "title": {
+        "zh-CN": "龙珠",
+        "ja-JP": "ドラゴンボール",
+        "en": "Dragon Ball"
+      },
+      "format": "TV",
+      "sourceIds": ["nozawa-agency"],
+      "url": "https://www.aoni.co.jp/search/nozawa-masako.html"
+    },
+    {
+      "id": "gundam-00-season-2",
+      "slug": "gundam-00-season-2",
+      "title": {
+        "zh-CN": "机动战士高达00 第二季",
+        "ja-JP": "機動戦士ガンダム00 セカンドシーズン",
+        "en": "Mobile Suit Gundam 00 · Second Season"
+      },
+      "format": "TV",
+      "year": 2008,
+      "sourceIds": ["miyano-works-2008"],
+      "url": "https://miyanomamoru.com/s/mm0608/diary/works/list?dy=2008"
+    }
+  ],
+  "characters": [
+    {
+      "id": "yor-forger",
+      "names": {
+        "zh-CN": "约尔·福杰",
+        "ja-JP": "ヨル・フォージャー",
+        "en": "Yor Forger"
+      },
+      "aliases": ["約兒", "ヨル"],
+      "animeId": "spy-family"
+    },
+    {
+      "id": "shinobu-kocho",
+      "names": {
+        "zh-CN": "胡蝶忍",
+        "ja-JP": "胡蝶しのぶ",
+        "en": "Shinobu Kocho"
+      },
+      "aliases": ["Kochou Shinobu"],
+      "animeId": "demon-slayer"
+    },
+    {
+      "id": "shoko-nishimiya",
+      "names": {
+        "zh-CN": "西宫硝子",
+        "ja-JP": "西宮硝子",
+        "en": "Shoko Nishimiya"
+      },
+      "aliases": ["Nishimiya Shouko"],
+      "animeId": "a-silent-voice"
+    },
+    {
+      "id": "yuzuru-nishimiya",
+      "names": {
+        "zh-CN": "西宫结弦",
+        "ja-JP": "西宮結絃",
+        "en": "Yuzuru Nishimiya"
+      },
+      "aliases": [],
+      "animeId": "a-silent-voice"
+    },
+    {
+      "id": "kento-nanami",
+      "names": {
+        "zh-CN": "七海建人",
+        "ja-JP": "七海建人",
+        "en": "Kento Nanami"
+      },
+      "aliases": ["Nanami Kento"],
+      "animeId": "jujutsu-kaisen"
+    },
+    {
+      "id": "mitsuri-kanroji",
+      "names": {
+        "zh-CN": "甘露寺蜜璃",
+        "ja-JP": "甘露寺蜜璃",
+        "en": "Mitsuri Kanroji"
+      },
+      "aliases": [],
+      "animeId": "demon-slayer"
+    },
+    {
+      "id": "akane-tsunemori",
+      "names": {
+        "zh-CN": "常守朱",
+        "ja-JP": "常守朱",
+        "en": "Akane Tsunemori"
+      },
+      "aliases": [],
+      "animeId": "psycho-pass"
+    },
+    {
+      "id": "maomao",
+      "names": {
+        "zh-CN": "猫猫",
+        "ja-JP": "猫猫",
+        "en": "Maomao"
+      },
+      "aliases": ["まおまお"],
+      "animeId": "apothecary-diaries"
+    },
+    {
+      "id": "madoka-kaname",
+      "names": {
+        "zh-CN": "鹿目圆",
+        "ja-JP": "鹿目まどか",
+        "en": "Madoka Kaname"
+      },
+      "aliases": ["鹿目圓"],
+      "animeId": "madoka-magica"
+    },
+    {
+      "id": "megumin",
+      "names": {
+        "zh-CN": "惠惠",
+        "ja-JP": "めぐみん",
+        "en": "Megumin"
+      },
+      "aliases": [],
+      "animeId": "konosuba"
+    },
+    {
+      "id": "emilia",
+      "names": {
+        "zh-CN": "爱蜜莉雅",
+        "ja-JP": "エミリア",
+        "en": "Emilia"
+      },
+      "aliases": ["艾米莉亚"],
+      "animeId": "re-zero"
+    },
+    {
+      "id": "shinji-ikari",
+      "names": {
+        "zh-CN": "碇真嗣",
+        "ja-JP": "碇シンジ",
+        "en": "Shinji Ikari"
+      },
+      "aliases": [],
+      "animeId": "evangelion"
+    },
+    {
+      "id": "son-goku",
+      "names": {
+        "zh-CN": "孙悟空",
+        "ja-JP": "孫悟空",
+        "en": "Son Goku"
+      },
+      "aliases": ["Goku"],
+      "animeId": "dragon-ball"
+    },
+    {
+      "id": "setsuna-f-seiei",
+      "names": {
+        "zh-CN": "刹那·F·清英",
+        "ja-JP": "刹那・F・セイエイ",
+        "en": "Setsuna F. Seiei"
+      },
+      "aliases": ["Setsuna F Seiei"],
+      "animeId": "gundam-00-season-2"
+    }
+  ],
+  "roles": [
+    {
+      "id": "hayami-yor",
+      "seiyuuId": "saori-hayami",
+      "characterId": "yor-forger",
+      "animeId": "spy-family",
+      "sourceIds": ["hayami-agency", "spy-family"]
+    },
+    {
+      "id": "hayami-shinobu",
+      "seiyuuId": "saori-hayami",
+      "characterId": "shinobu-kocho",
+      "animeId": "demon-slayer",
+      "sourceIds": ["hayami-agency"]
+    },
+    {
+      "id": "hayami-shoko",
+      "seiyuuId": "saori-hayami",
+      "characterId": "shoko-nishimiya",
+      "animeId": "a-silent-voice",
+      "sourceIds": ["hayami-agency", "silent-voice"]
+    },
+    {
+      "id": "yuki-yuzuru",
+      "seiyuuId": "aoi-yuki",
+      "characterId": "yuzuru-nishimiya",
+      "animeId": "a-silent-voice",
+      "sourceIds": ["yuki-agency"]
+    },
+    {
+      "id": "tsuda-nanami",
+      "seiyuuId": "kenjiro-tsuda",
+      "characterId": "kento-nanami",
+      "animeId": "jujutsu-kaisen",
+      "sourceIds": ["tsuda-official"]
+    },
+    {
+      "id": "hanazawa-mitsuri",
+      "seiyuuId": "kana-hanazawa",
+      "characterId": "mitsuri-kanroji",
+      "animeId": "demon-slayer",
+      "sourceIds": ["hanazawa-agency"]
+    },
+    {
+      "id": "hanazawa-akane",
+      "seiyuuId": "kana-hanazawa",
+      "characterId": "akane-tsunemori",
+      "animeId": "psycho-pass",
+      "sourceIds": ["hanazawa-agency"]
+    },
+    {
+      "id": "yuki-maomao",
+      "seiyuuId": "aoi-yuki",
+      "characterId": "maomao",
+      "animeId": "apothecary-diaries",
+      "sourceIds": ["yuki-agency", "kusuri"]
+    },
+    {
+      "id": "yuki-madoka",
+      "seiyuuId": "aoi-yuki",
+      "characterId": "madoka-kaname",
+      "animeId": "madoka-magica",
+      "sourceIds": ["yuki-agency"]
+    },
+    {
+      "id": "rie-megumin",
+      "seiyuuId": "rie-takahashi",
+      "characterId": "megumin",
+      "animeId": "konosuba",
+      "sourceIds": ["takahashi-agency"]
+    },
+    {
+      "id": "rie-emilia",
+      "seiyuuId": "rie-takahashi",
+      "characterId": "emilia",
+      "animeId": "re-zero",
+      "sourceIds": ["takahashi-agency"]
+    },
+    {
+      "id": "ogata-shinji",
+      "seiyuuId": "megumi-ogata",
+      "characterId": "shinji-ikari",
+      "animeId": "evangelion",
+      "sourceIds": ["ogata-official"]
+    },
+    {
+      "id": "nozawa-goku",
+      "seiyuuId": "masako-nozawa",
+      "characterId": "son-goku",
+      "animeId": "dragon-ball",
+      "sourceIds": ["nozawa-agency"]
+    },
+    {
+      "id": "miyano-setsuna",
+      "seiyuuId": "mamoru-miyano",
+      "characterId": "setsuna-f-seiei",
+      "animeId": "gundam-00-season-2",
+      "sourceIds": ["miyano-works-2008"]
+    }
+  ],
+  "conflicts": []
+}
