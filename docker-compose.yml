@@ -5,6 +5,8 @@ services:
       dockerfile: Dockerfile
       args:
         NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://seiyuu.page}
+        NEXT_PUBLIC_ICP_BEIAN_NUMBER: ${NEXT_PUBLIC_ICP_BEIAN_NUMBER:-}
+        NEXT_PUBLIC_MPS_BEIAN_NUMBER: ${NEXT_PUBLIC_MPS_BEIAN_NUMBER:-}
     container_name: seiyuu
     restart: unless-stopped
     ports:

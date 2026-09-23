@@ -1,0 +1,142 @@
+name: Build container image
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: image-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  REGISTRY_IMAGE: ghcr.io/${{ github.repository }}
+
+jobs:
+  build:
+    name: Build ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: linux/amd64
+            runner: ubuntu-24.04
+            arch: amd64
+            host: x86_64
+          - platform: linux/arm64
+            runner: ubuntu-24.04-arm
+            arch: arm64
+            host: aarch64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - name: Verify native runner
+        env:
+          EXPECTED_HOST: ${{ matrix.host }}
+        run: test "$(uname -m)" = "$EXPECTED_HOST"
+
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: docker/setup-buildx-action@v4
+
+      - name: Build and push by digest
+        id: build
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: ./Dockerfile
+          platforms: ${{ matrix.platform }}
+          build-args: |
+            NEXT_PUBLIC_SITE_URL=${{ vars.NEXT_PUBLIC_SITE_URL || 'https://seiyuu.page' }}
+            NEXT_PUBLIC_ICP_BEIAN_NUMBER=${{ vars.NEXT_PUBLIC_ICP_BEIAN_NUMBER }}
+            NEXT_PUBLIC_MPS_BEIAN_NUMBER=${{ vars.NEXT_PUBLIC_MPS_BEIAN_NUMBER }}
+          labels: |
+            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+          outputs: type=image,name=${{ env.REGISTRY_IMAGE }},push-by-digest=true,name-canonical=true,push=true
+          cache-from: type=gha,scope=seiyuu-${{ matrix.arch }}
+          cache-to: type=gha,scope=seiyuu-${{ matrix.arch }},mode=max
+
+      - name: Save image digest
+        env:
+          IMAGE_DIGEST: ${{ steps.build.outputs.digest }}
+        run: |
+          set -euo pipefail
+          [[ "$IMAGE_DIGEST" =~ ^sha256:[a-f0-9]{64}$ ]]
+          mkdir -p "$RUNNER_TEMP/digests"
+          touch "$RUNNER_TEMP/digests/${IMAGE_DIGEST#sha256:}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: digests-${{ matrix.arch }}
+          path: ${{ runner.temp }}/digests/*
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    name: Publish multi-platform manifest
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: ${{ runner.temp }}/digests
+          pattern: digests-*
+          merge-multiple: true
+
+      - uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: docker/setup-buildx-action@v4
+
+      - name: Generate image tags
+        id: meta
+        uses: docker/metadata-action@v6
+        with:
+          images: ${{ env.REGISTRY_IMAGE }}
+          flavor: latest=false
+          tags: |
+            type=ref,event=branch
+            type=ref,event=tag
+            type=semver,pattern={{version}}
+            type=sha,format=long
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
+
+      - name: Assemble and verify manifest
+        env:
+          IMAGE_TAGS: ${{ steps.meta.outputs.tags }}
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/digests"
+          shopt -s nullglob
+          digests=(*)
+          [[ ${#digests[@]} -eq 2 ]]
+          sources=()
+          for digest in "${digests[@]}"; do
+            [[ "$digest" =~ ^[a-f0-9]{64}$ ]]
+            sources+=("${REGISTRY_IMAGE}@sha256:${digest}")
+          done
+          mapfile -t tags <<< "$IMAGE_TAGS"
+          [[ ${#tags[@]} -gt 0 && -n "${tags[0]}" ]]
+          tag_args=()
+          for tag in "${tags[@]}"; do
+            tag_args+=(-t "$tag")
+          done
+          docker buildx imagetools create "${tag_args[@]}" "${sources[@]}"
+          docker buildx imagetools inspect --raw "${tags[0]}" |
+            jq -e '[.manifests[] | select(.platform.os == "linux") | .platform.architecture] | unique == ["amd64", "arm64"]'

@@ -33,7 +33,11 @@ npm start -- --port 3001
 
 ## 配置与发布
 
-`.env.example` 只有公开站点地址配置。`NEXT_PUBLIC_SITE_URL` 影响 canonical、站点地图和分享图 URL，需在构建时设置为实际主域；默认的 `https://seiyuu.page` 是建议地址，不代表已注册、部署或上线。
+`NEXT_PUBLIC_SITE_URL` 影响 canonical、站点地图和分享图 URL，需在构建时设置为实际主域；默认的 `https://seiyuu.page` 是建议地址，不代表已注册、部署或上线。
+
+页脚备案信息默认隐藏。取得备案号后，在构建环境中按需设置 `NEXT_PUBLIC_ICP_BEIAN_NUMBER` 和 `NEXT_PUBLIC_MPS_BEIAN_NUMBER`（可只设置其中一项），例如复制 `.env.example` 为 `.env.local` 并填写真实号码。ICP备案号链接到工信部查询站；公安备案号中含有完整的 14 位数字时链接到对应的公安备案查询页，否则链接到公安备案搜索页。备案号会写入构建产物，修改后需要重新构建镜像；不要填写尚未核准的示例号码。
+
+GitHub Actions 的 [镜像工作流](.github/workflows/image.yml) 在 `main` 更新、`v*` 标签推送或手动触发时，分别使用 GitHub 的 `ubuntu-24.04`（amd64）和 `ubuntu-24.04-arm`（arm64）原生运行器构建，并合成 `ghcr.io/yayitinyu/seiyuu` 多架构镜像。`main` 生成 `latest`，所有构建生成完整提交 SHA 标签，版本标签另生成原始 `v*` 和无 `v` 的版本标签。可在仓库 Actions Variables 中设置 `NEXT_PUBLIC_SITE_URL` 及两项备案号；留空则保持默认站点地址且不显示备案信息。工作流不会自动部署到服务器。
 
 需要支持 Node.js 的 Next.js 托管环境；目录查询和分享图使用服务器路由，不能直接当作纯静态 `out/` 目录发布。域名、托管和备案取舍见 [域名策略](docs/domain-strategy.md)。本次交付为本地工程，不包含生产部署。
 

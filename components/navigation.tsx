@@ -10,41 +10,54 @@ import { Arrow, SearchIcon, ThemeIcon, Wave } from "./icons";
 
 export function LanguageSwitcher({ locale }: { locale: Locale }) {
   const pathname = usePathname();
+  const localePath = (lang: Locale) =>
+    pathname.replace(/^\/(zh-CN|ja-JP|en)(?=\/|$)/, `/${lang}`);
+  const navigate = (lang: Locale) => {
+    window.location.assign(localePath(lang) + window.location.search + window.location.hash);
+  };
   return (
     <div className="language-switch" aria-label={dictionaries[locale].language}>
-      {locales.map((lang) => (
-        <a
-          key={lang}
-          href={pathname.replace(/^\/(zh-CN|ja-JP|en)(?=\/|$)/, `/${lang}`)}
-          onClick={(event) => {
-            if (
-              !event.metaKey &&
-              !event.ctrlKey &&
-              !event.shiftKey &&
-              !event.altKey
-            ) {
-              event.preventDefault();
-              window.location.assign(
-                pathname.replace(/^\/(zh-CN|ja-JP|en)(?=\/|$)/, `/${lang}`) +
-                  window.location.search +
-                  window.location.hash,
-              );
+      <div className="language-links">
+        {locales.map((lang) => (
+          <a
+            key={lang}
+            href={localePath(lang)}
+            onClick={(event) => {
+              if (
+                !event.metaKey &&
+                !event.ctrlKey &&
+                !event.shiftKey &&
+                !event.altKey
+              ) {
+                event.preventDefault();
+                navigate(lang);
+              }
+            }}
+            lang={lang}
+            hrefLang={lang}
+            aria-label={
+              {
+                "zh-CN": "中 · 简体中文",
+                "ja-JP": "JP · 日本語",
+                en: "EN · English",
+              }[lang]
             }
-          }}
-          lang={lang}
-          hrefLang={lang}
-          aria-label={
-            {
-              "zh-CN": "中 · 简体中文",
-              "ja-JP": "JP · 日本語",
-              en: "EN · English",
-            }[lang]
-          }
-          aria-current={lang === locale ? "true" : undefined}
-        >
-          {{ "zh-CN": "中", "ja-JP": "JP", en: "EN" }[lang]}
-        </a>
-      ))}
+            aria-current={lang === locale ? "true" : undefined}
+          >
+            {{ "zh-CN": "中", "ja-JP": "JP", en: "EN" }[lang]}
+          </a>
+        ))}
+      </div>
+      <select
+        className="language-select"
+        value={locale}
+        onChange={(event) => navigate(event.target.value as Locale)}
+        aria-label={dictionaries[locale].language}
+      >
+        <option value="zh-CN">中</option>
+        <option value="ja-JP">JP</option>
+        <option value="en">EN</option>
+      </select>
     </div>
   );
 }
