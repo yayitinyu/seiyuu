@@ -65,3 +65,18 @@
 
 - [Breathe Arts：緒方恵美](https://breathearts.jp/talent-list/ogata)：核实 6 月 6 日、东京、事务所与官方社交外链；不猜出生年。
 - [宫野真守 2008 年履历](https://miyanomamoru.com/s/mm0608/diary/works/list?dy=2008)：核实《机动战士高达 00 第二季》与刹那·F·清英的配音关系。2008 属于第二季，不作为原系列起点。
+
+## 2026-09-23：既有角色关系的官方补证
+
+仅为已收录的作品和角色补证，没有据此扩写人物生平。
+
+| 作品官方来源 | 已核实的关系 |
+| --- | --- |
+| [PSYCHO-PASS 第一季 STAFF & CAST](https://psycho-pass.com/archive/staffcast/index.php) | 常守朱 — 花澤香菜；对应第一季，而非后来剧场版的角色页面。 |
+| [魔法少女まどか☆マギカ TV CHARACTER](https://www.madoka-magica.com/tv/youtube-streaming/character/) | 鹿目まどか — 悠木碧。 |
+| [この素晴らしい世界に祝福を！第一季 CAST](https://konosuba.com/1st/staff_cast/) | めぐみん — 高橋李依。 |
+| [Re:ゼロ TV CHARACTER](https://re-zero-anime.jp/tv/character/) | エミリア — 高橋李依。 |
+| [エヴァ・インフォメーション TV 系列 CAST](https://www.eva-info.jp/5860) | 碇シンジ — 緒方恵美。 |
+| [ドラゴンボール公式网站](https://dragon-ball-official.com/news/01_2187.html) | 官方稿件确认野沢雅子是孫悟空配音；此稿件涉及系列后续新作，人物关系仍由事务所履历交叉支撑。 |
+
+同日自动来源检查的 27 条中，18 条返回 HTTP 200，9 条因 403、连接失败或超时无法自动比对。自动访问失败不等于来源内容失效；这些条目保留待人工核验状态。原始响应 SHA-256 与检查时间在 `content/source-audit.json`，没有存储网页正文。

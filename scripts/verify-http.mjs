@@ -61,6 +61,9 @@ for (const path of [
   assert.equal(response.status, 404, path);
   assert.ok((await response.text()).includes("noindex"), `${path}: noindex`);
 }
+const missingMedia = await fetch(`${base}/media/not-authorized`);
+assert.equal(missingMedia.status, 404, "unknown media must not be served");
+assert.equal(missingMedia.headers.get("cache-control"), "no-store");
 
 for (const [path, status, destination] of [
   ["/", 307, "/zh-CN"],
@@ -87,5 +90,5 @@ for (const path of [
   assert.equal(png.readUInt32BE(20), 630);
 }
 console.log(
-  `HTTP checks passed: ${pages} localized pages, 5 true 404s, redirects, structured data, metadata, sitemap, manifest, robots, and 2 share images.`,
+  `HTTP checks passed: ${pages} localized pages, 5 true page 404s, unknown media 404, redirects, structured data, metadata, sitemap, manifest, robots, and 2 share images.`,
 );

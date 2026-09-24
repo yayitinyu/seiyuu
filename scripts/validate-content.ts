@@ -1,10 +1,11 @@
 import { readFileSync } from "node:fs";
 import { validateArchive } from "../lib/validate.ts";
+import { validateMediaFiles } from "../lib/media-server.ts";
 import type { Archive } from "../lib/types.ts";
 const archive = JSON.parse(
   readFileSync(new URL("../content/archive.json", import.meta.url), "utf8"),
 ) as Archive;
-const errors = validateArchive(archive);
+const errors = [...validateArchive(archive), ...(await validateMediaFiles(archive))];
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exitCode = 1;

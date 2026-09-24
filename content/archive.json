@@ -189,8 +189,63 @@
       "retrieved_at": "2026-09-21",
       "verified": true,
       "confidence": "high"
+    },
+    {
+      "id": "psycho-pass-character",
+      "title": "PSYCHO-PASS サイコパス 1 · STAFF & CAST",
+      "source_url": "https://psycho-pass.com/archive/staffcast/index.php",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-23",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "madoka-tv-character",
+      "title": "魔法少女まどか☆マギカ · TV CHARACTER",
+      "source_url": "https://www.madoka-magica.com/tv/youtube-streaming/character/",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-23",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "konosuba-first-cast",
+      "title": "この素晴らしい世界に祝福を！ · 第1期 STAFF & CAST",
+      "source_url": "https://konosuba.com/1st/staff_cast/",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-23",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "re-zero-character",
+      "title": "Re:ゼロから始める異世界生活 · CHARACTER",
+      "source_url": "https://re-zero-anime.jp/tv/character/",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-23",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "evangelion-tv-cast",
+      "title": "エヴァ・インフォメーション · TVシリーズ Blu-ray BOX",
+      "source_url": "https://www.eva-info.jp/5860",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-23",
+      "verified": true,
+      "confidence": "high"
+    },
+    {
+      "id": "dragon-ball-goku",
+      "title": "ドラゴンボールオフィシャルサイト · 孫悟空役",
+      "source_url": "https://dragon-ball-official.com/news/01_2187.html",
+      "source_type": "official-anime",
+      "retrieved_at": "2026-09-23",
+      "verified": true,
+      "confidence": "high"
     }
   ],
+  "media": [],
   "agencies": [
     {
       "id": "im-enterprise",
@@ -1173,8 +1228,8 @@
         "en": "PSYCHO-PASS"
       },
       "format": "TV",
-      "sourceIds": ["hanazawa-agency"],
-      "url": "https://osawa-inc.co.jp/women/hanazawakana/"
+      "sourceIds": ["hanazawa-agency", "psycho-pass-character"],
+      "url": "https://psycho-pass.com/archive/staffcast/index.php"
     },
     {
       "id": "apothecary-diaries",
@@ -1197,8 +1252,8 @@
         "en": "Puella Magi Madoka Magica"
       },
       "format": "TV",
-      "sourceIds": ["yuki-agency"],
-      "url": "https://www.aoni.co.jp/search/yuki-aoi.html"
+      "sourceIds": ["yuki-agency", "madoka-tv-character"],
+      "url": "https://www.madoka-magica.com/tv/youtube-streaming/character/"
     },
     {
       "id": "konosuba",
@@ -1209,8 +1264,8 @@
         "en": "KONOSUBA"
       },
       "format": "TV",
-      "sourceIds": ["takahashi-agency"],
-      "url": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236"
+      "sourceIds": ["takahashi-agency", "konosuba-first-cast"],
+      "url": "https://konosuba.com/1st/staff_cast/"
     },
     {
       "id": "re-zero",
@@ -1221,8 +1276,8 @@
         "en": "Re:ZERO"
       },
       "format": "TV",
-      "sourceIds": ["takahashi-agency"],
-      "url": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236"
+      "sourceIds": ["takahashi-agency", "re-zero-character"],
+      "url": "https://re-zero-anime.jp/tv/character/"
     },
     {
       "id": "evangelion",
@@ -1233,8 +1288,8 @@
         "en": "Neon Genesis Evangelion"
       },
       "format": "TV",
-      "sourceIds": ["ogata-official"],
-      "url": "https://emou.net/"
+      "sourceIds": ["ogata-official", "evangelion-tv-cast"],
+      "url": "https://www.eva-info.jp/5860"
     },
     {
       "id": "dragon-ball",
@@ -1245,8 +1300,8 @@
         "en": "Dragon Ball"
       },
       "format": "TV",
-      "sourceIds": ["nozawa-agency"],
-      "url": "https://www.aoni.co.jp/search/nozawa-masako.html"
+      "sourceIds": ["nozawa-agency", "dragon-ball-goku"],
+      "url": "https://dragon-ball-official.com/news/01_2187.html"
     },
     {
       "id": "gundam-00-season-2",
@@ -1452,7 +1507,7 @@
       "seiyuuId": "kana-hanazawa",
       "characterId": "akane-tsunemori",
       "animeId": "psycho-pass",
-      "sourceIds": ["hanazawa-agency"]
+      "sourceIds": ["hanazawa-agency", "psycho-pass-character"]
     },
     {
       "id": "yuki-maomao",
@@ -1466,35 +1521,35 @@
       "seiyuuId": "aoi-yuki",
       "characterId": "madoka-kaname",
       "animeId": "madoka-magica",
-      "sourceIds": ["yuki-agency"]
+      "sourceIds": ["yuki-agency", "madoka-tv-character"]
     },
     {
       "id": "rie-megumin",
       "seiyuuId": "rie-takahashi",
       "characterId": "megumin",
       "animeId": "konosuba",
-      "sourceIds": ["takahashi-agency"]
+      "sourceIds": ["takahashi-agency", "konosuba-first-cast"]
     },
     {
       "id": "rie-emilia",
       "seiyuuId": "rie-takahashi",
       "characterId": "emilia",
       "animeId": "re-zero",
-      "sourceIds": ["takahashi-agency"]
+      "sourceIds": ["takahashi-agency", "re-zero-character"]
     },
     {
       "id": "ogata-shinji",
       "seiyuuId": "megumi-ogata",
       "characterId": "shinji-ikari",
       "animeId": "evangelion",
-      "sourceIds": ["ogata-official"]
+      "sourceIds": ["ogata-official", "evangelion-tv-cast"]
     },
     {
       "id": "nozawa-goku",
       "seiyuuId": "masako-nozawa",
       "characterId": "son-goku",
       "animeId": "dragon-ball",
-      "sourceIds": ["nozawa-agency"]
+      "sourceIds": ["nozawa-agency", "dragon-ball-goku"]
     },
     {
       "id": "miyano-setsuna",

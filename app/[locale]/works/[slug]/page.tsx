@@ -93,7 +93,7 @@ export default async function WorkPage({ params }: Props) {
               key={role.id}
             >
               <div className="cast-portrait">
-                <SeiyuuPortrait person={person} />
+                <SeiyuuPortrait person={person} locale={locale} />
               </div>
               <div>
                 <span className="eyebrow">{d.character}</span>

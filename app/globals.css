@@ -2486,3 +2486,33 @@ svg {
   color: var(--muted);
   margin-left: 20px;
 }
+.portrait-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.portrait-credit {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  left: 12px;
+  color: white;
+  font: 10px/1.4 var(--body);
+  text-shadow: 0 1px 4px #000;
+}
+.profile-audio {
+  margin: 26px 0 0;
+}
+.profile-audio figcaption {
+  font-size: 12px;
+  margin-bottom: 9px;
+}
+.profile-audio audio {
+  display: block;
+  width: min(100%, 360px);
+}
+.profile-audio p {
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 8px;
+}

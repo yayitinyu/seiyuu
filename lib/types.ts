@@ -57,8 +57,34 @@ export interface Seiyuu {
   sourceIds: string[];
   officialUrl: string;
   voiceUrl?: string;
-  imageStatus: "IMAGE_LICENSE_TODO";
+  imageStatus: "IMAGE_LICENSE_TODO" | "LICENSED";
+  portraitAssetId?: string;
+  voiceAssetId?: string;
   socialLinks: { platform: string; url: string; verifiedBySourceId: string }[];
+}
+export interface MediaAsset {
+  id: string;
+  personId: string;
+  kind: "portrait" | "audio";
+  filename: string;
+  mimeType: "image/jpeg" | "image/png" | "image/webp" | "audio/mpeg" | "audio/ogg";
+  sha256: string;
+  rights: {
+    holder: string;
+    authorizationRef: string;
+    allowedUse: "portrait-display" | "audio-stream";
+    startsAt: string;
+    endsAt?: string;
+    perpetual?: true;
+    territories: string;
+    attribution?: string;
+  };
+  reviewedBy: string;
+  reviewedAt: string;
+  alt?: Localized;
+  cropAllowed?: boolean;
+  width?: number;
+  height?: number;
 }
 export interface Agency {
   id: string;
@@ -90,6 +116,7 @@ export interface Role {
 }
 export interface Archive {
   sources: Source[];
+  media: MediaAsset[];
   seiyuu: Seiyuu[];
   agencies: Agency[];
   anime: Anime[];

@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { Locale, Seiyuu, Source } from "@/lib/types";
 import { dictionaries, tr } from "@/lib/i18n";
-import { getAgency, getRoles, seiyuu } from "@/lib/content";
+import { archive, getAgency, getRoles, seiyuu } from "@/lib/content";
+import { isLicenseActive } from "@/lib/media";
 import { Arrow, Wave } from "./icons";
 import { SeiyuuPortrait } from "./portrait";
 
@@ -63,10 +64,15 @@ export function ProfileHeader({
   locale: Locale;
 }) {
   const d = dictionaries[locale];
+  const audio = archive.media.find(
+    (asset) => asset.id === person.voiceAssetId && asset.kind === "audio",
+  );
+  const activeAudio = audio && isLicenseActive(audio);
   return (
     <section className="profile-hero" id="profile">
       <SeiyuuPortrait
         person={person}
+        locale={locale}
         index={seiyuu.findIndex((p) => p.id === person.id)}
       />
       <div className="profile-intro">
@@ -87,13 +93,20 @@ export function ProfileHeader({
         <Metadata person={person} locale={locale} />
         <a
           className="text-link"
-          href={person.voiceUrl || person.officialUrl}
+          href={activeAudio ? person.officialUrl : person.voiceUrl || person.officialUrl}
           target="_blank"
           rel="noreferrer"
         >
-          {person.voiceUrl ? d.voice : d.official}
+          {activeAudio ? d.official : person.voiceUrl ? d.voice : d.official}
           <Arrow external />
         </a>
+        {activeAudio && (
+          <figure className="profile-audio">
+            <figcaption>{d.voice}</figcaption>
+            <audio controls preload="none" src={`/media/${audio.id}`} />
+            {audio.rights.attribution && <p>{audio.rights.attribution}</p>}
+          </figure>
+        )}
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ npm start -- --port 3001
 - 三语独立 URL、明暗主题、键盘焦点、reduced-motion、手机重排；生日模块按日本时区计算。
 - Canonical、hreflang、Person / Movie / TVSeries JSON-LD、站点地图、robots、manifest 和 1200 × 630 分享图。未知档案返回真实 HTTP 404。
 
-页面以服务器组件和静态生成提供；目录筛选在客户端响应并同步路由。无需数据库、API key 或登录服务。没有后台编辑、账号、收藏、实际音频托管或全行业数据库。
+页面以服务器组件和静态生成提供；目录筛选在客户端响应并同步路由。无需数据库、API key 或登录服务。另有仅绑定本机的文件编辑台；公开站点没有账号、收藏或全行业数据库。
 
 ## 配置与发布
 
@@ -39,17 +39,31 @@ npm start -- --port 3001
 
 GitHub Actions 的 [镜像工作流](.github/workflows/image.yml) 在 `main` 更新、`v*` 标签推送或手动触发时，分别使用 GitHub 的 `ubuntu-24.04`（amd64）和 `ubuntu-24.04-arm`（arm64）原生运行器构建，并合成 `ghcr.io/yayitinyu/seiyuu` 多架构镜像。`main` 生成 `latest`，所有构建生成完整提交 SHA 标签，版本标签另生成原始 `v*` 和无 `v` 的版本标签。可在仓库 Actions Variables 中设置 `NEXT_PUBLIC_SITE_URL` 及两项备案号；留空则保持默认站点地址且不显示备案信息。工作流不会自动部署到服务器。
 
-需要支持 Node.js 的 Next.js 托管环境；目录查询和分享图使用服务器路由，不能直接当作纯静态 `out/` 目录发布。域名、托管和备案取舍见 [域名策略](docs/domain-strategy.md)。本次交付为本地工程，不包含生产部署。
+需要支持 Node.js 的 Next.js 托管环境；目录查询和分享图使用服务器路由，不能直接当作纯静态 `out/` 目录发布。域名、托管和备案取舍见 [域名策略](docs/domain-strategy.md)。当前生产站点为 `https://seiyuu.cn`；镜像工作流只构建与推送，服务器部署需单独执行。
 
 ## 内容维护
 
 事实在 `content/archive.json`，类型在 `lib/types.ts`，三语 UI 在 `lib/i18n.ts`，原创札记在 `content/journal.ts`。来源记录查阅日期、URL、类型与置信度，重要字段通过 `evidence` 映射回来源。
 
-当前收录 21 个来源。无官方出生年时只显示月日；声优出道年份只有明确核实的值才进入筛选。缺失项不是零，也不据此推断年龄或职业起点。角色清单是精选履历。
+当前收录 27 个官方来源。新增的 6 条作品官方资料已关联到具体作品和配音关系。无官方出生年时只显示月日；声优出道年份只有明确核实的值才进入筛选。缺失项不是零，也不据此推断年龄或职业起点。角色清单是精选履历。
 
 新增内容应先查官方资料、登记来源和事实证据、补齐三语标签，再运行校验并构建。人物和作品的合法 URL 来自构建时内容，更新 JSON 后需要重新构建。
 
-人物封面是原生文字和装饰线谱，`IMAGE_LICENSE_TODO` 表示真人照片尚待授权。首页录音室为 AI 生成意象，与真实人物或场所无对应关系；声音只跳转官方页面，不提供伪播放器。详见 [素材政策](docs/image-policy.md)。
+人物封面目前仍是原生文字和装饰线谱，`IMAGE_LICENSE_TODO` 表示真人照片尚待授权。首页录音室为 AI 生成意象，与真实人物或场所无对应关系。现已具备经过许可校验的本地肖像和音频展示通道，但仓库中没有已获授权的真人素材，因此声音仍只跳转官方页面。详见 [素材政策](docs/image-policy.md)。
+
+### 本地编辑与审核
+
+```powershell
+npm run studio
+npm run audit:sources
+npm run editorial:status
+```
+
+`studio` 在 `127.0.0.1:3210` 启动，终端会打印带临时访问令牌的地址。编辑台可修改档案 JSON、检查单条来源、记录来源版本审核和三语人工审校；保存时校验整份档案，并将上一版留在未纳入 Git 的 `content/.revisions/`。不要把编辑台反向代理到公网。编辑后重新构建站点。
+
+`audit:sources` 保存来源页面的 HTTP 状态和原始响应 SHA-256，不保存网页正文；页面变动只进入待审核状态，不自动改写事实或 `verified`。部分官网拒绝自动访问，可在编辑台记录人工核验，但这种状态无法证明网页版本未变，30 天后必须重审。2026-09-23 的首次检查取得 18 条 HTTP 200，另有 9 条因 403、连接失败或超时未能自动比对。
+
+三语正式人工审校尚未签署，来源版本也尚未逐条人工确认。`npm run editorial:gate` 是发布前的审校闸门；当前会按预期失败。文件格式、权限记录、状态含义和审核步骤见 [编辑工作流](docs/editorial-workflow.md)。
 
 ## 验证
 
@@ -75,6 +89,6 @@ HTTP 回归验证全部 72 个三语内容页面、5 种 404、重定向、语�
 
 - [产品愿景](docs/vision.md) · [调研记录](docs/research.md) · [信息架构](docs/information-architecture.md)
 - [设计系统与概念](docs/design-system.md) · [内容模型](docs/data-model.md) · [编辑规范](docs/content-guidelines.md)
-- [架构决定](docs/decisions.md) · [路线图](docs/roadmap.md)
+- [架构决定](docs/decisions.md) · [路线图](docs/roadmap.md) · [编辑工作流](docs/editorial-workflow.md)
 
-后续扩展重点是已授权肖像与音频、更多官方来源、人工三语审校、CMS 和来源版本审核。不要用虚构资料补齐数据。
+后续需要取得可核实的肖像与音频授权，并由真人完成三语和来源版本审校；更大规模的多人 CMS、PostgreSQL 与关系图仍在路线图中。不要用虚构资料补齐数据。

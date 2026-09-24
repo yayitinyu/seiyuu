@@ -15,3 +15,4 @@ docker-compose*.yml
 README.md
 docs
 tests
+content/.revisions

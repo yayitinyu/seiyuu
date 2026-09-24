@@ -12,6 +12,10 @@
     "start": "next start --hostname 127.0.0.1",
     "typecheck": "tsc --noEmit",
     "validate:content": "node --experimental-strip-types scripts/validate-content.ts",
+    "audit:sources": "node --experimental-strip-types scripts/audit-sources.ts",
+    "editorial:status": "node --experimental-strip-types scripts/editorial-status.ts",
+    "editorial:gate": "node --experimental-strip-types scripts/editorial-status.ts --gate",
+    "studio": "node --experimental-strip-types scripts/studio.ts",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "test:http": "node scripts/verify-http.mjs"
   },

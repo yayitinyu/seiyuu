@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "sources": {
+    "hayami-music": {
+      "checkedAt": "2026-09-23T14:51:39.976Z",
+      "observations": [
+        {
+          "sourceUrl": "https://hayamisaoriofficial.com/biography/",
+          "checkedAt": "2026-09-23T14:51:39.976Z",
+          "status": 200,
+          "finalUrl": "https://hayamisaoriofficial.com/biography/",
+          "sha256": "b10871686c91fcb7ee5cd544ef11264efb52f86d147ed2aa5ab8761998bad829",
+          "bytes": 19388
+        }
+      ]
+    },
+    "hayami-garden": {
+      "checkedAt": "2026-09-23T14:51:39.977Z",
+      "observations": [
+        {
+          "sourceUrl": "https://hayamisaoriofficial.com/discography/post-12/",
+          "checkedAt": "2026-09-23T14:51:39.977Z",
+          "status": 200,
+          "finalUrl": "https://hayamisaoriofficial.com/discography/post-12/",
+          "sha256": "ffd82996c50600d0d259b7de5e2d09bd1bfbe3f5da5bd79e33541322842a7b7f",
+          "bytes": 25576
+        }
+      ]
+    },
+    "tsuda-official": {
+      "checkedAt": "2026-09-23T14:51:43.206Z",
+      "observations": [
+        {
+          "sourceUrl": "https://tsudaken.jp/",
+          "checkedAt": "2026-09-23T14:51:43.206Z",
+          "error": "fetch failed"
+        }
+      ]
+    },
+    "hayami-agency": {
+      "checkedAt": "2026-09-23T14:51:39.942Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.imenterprise.jp/profile.php?id=74",
+          "checkedAt": "2026-09-23T14:51:39.942Z",
+          "error": "fetch failed"
+        }
+      ]
+    },
+    "miyano-agency": {
+      "checkedAt": "2026-09-23T14:51:50.574Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.ken-on.co.jp/artists/miyano/",
+          "checkedAt": "2026-09-23T14:51:50.574Z",
+          "status": 200,
+          "finalUrl": "https://www.ken-on.co.jp/artists/miyano/",
+          "sha256": "51280264761122b88ac455089fba9b4ab12c154c9961bd5d35c458bbbbbbaf14",
+          "bytes": 68051
+        }
+      ]
+    },
+    "miyano-official": {
+      "checkedAt": "2026-09-23T14:51:50.049Z",
+      "observations": [
+        {
+          "sourceUrl": "https://miyanomamoru.com/s/mm0608/page/profile",
+          "checkedAt": "2026-09-23T14:51:50.049Z",
+          "status": 200,
+          "finalUrl": "https://miyanomamoru.com/s/mm0608/page/profile",
+          "sha256": "e23afe7002d2e83d7b08c790244969237ccd1c4ff9236c3aa938c05df8afd4b2",
+          "bytes": 16559
+        }
+      ]
+    },
+    "hanazawa-agency": {
+      "checkedAt": "2026-09-23T14:51:43.288Z",
+      "observations": [
+        {
+          "sourceUrl": "https://osawa-inc.co.jp/women/hanazawakana/",
+          "checkedAt": "2026-09-23T14:51:43.288Z",
+          "status": 200,
+          "finalUrl": "https://osawa-inc.co.jp/women/hanazawakana/",
+          "sha256": "1abf3cc484fb6ad245981dabd0f1636d39de5541590de623716472e37465a71f",
+          "bytes": 47916
+        }
+      ]
+    },
+    "takahashi-agency": {
+      "checkedAt": "2026-09-23T14:51:51.992Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236",
+          "checkedAt": "2026-09-23T14:51:51.992Z",
+          "status": 200,
+          "finalUrl": "https://www.81produce.co.jp/dcms_plusdb/index.php/item?id=236",
+          "sha256": "339ddffd7852a2130dfa9a50443fe0018f4ca09a4efaeb3109fab36cc3ac206c",
+          "bytes": 38410
+        }
+      ]
+    },
+    "ogata-official": {
+      "checkedAt": "2026-09-23T14:51:52.867Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.emou.net/profile/",
+          "checkedAt": "2026-09-23T14:51:52.867Z",
+          "status": 200,
+          "finalUrl": "https://www.emou.net/profile/",
+          "sha256": "7b0cd8ff23e3313d6cfca25dcd09d66874c02133a145b96ad650dc66922bf9dc",
+          "bytes": 5942
+        }
+      ]
+    },
+    "ogata-home": {
+      "checkedAt": "2026-09-23T14:51:53.840Z",
+      "observations": [
+        {
+          "sourceUrl": "https://emou.net/",
+          "checkedAt": "2026-09-23T14:51:53.840Z",
+          "status": 200,
+          "finalUrl": "https://emou.net/",
+          "sha256": "970b5fb111a9eca155b74c7f043d3b747998f42df971c76e6b1ab5254529f790",
+          "bytes": 13349
+        }
+      ]
+    },
+    "awards-10": {
+      "checkedAt": "2026-09-23T14:51:55.812Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.seiyuawards.jp/winning/winning_10/index.php",
+          "checkedAt": "2026-09-23T14:51:55.812Z",
+          "status": 200,
+          "finalUrl": "https://www.seiyuawards.jp/winning/winning_10/index.php",
+          "sha256": "9ebf1a57476100c652223fa68c654ae977cc93c61124dda2cb7dd80a2708214a",
+          "bytes": 15212
+        }
+      ]
+    },
+    "silent-voice": {
+      "checkedAt": "2026-09-23T14:51:56.892Z",
+      "observations": [
+        {
+          "sourceUrl": "https://koenokatachi-movie.com/sp/news/?page=23",
+          "checkedAt": "2026-09-23T14:51:56.892Z",
+          "status": 200,
+          "finalUrl": "https://koenokatachi-movie.com/sp/news/?page=23",
+          "sha256": "e6b90e97521435bf6e272bbbe9fc94aca87cc9252303491b79773ef864a58860",
+          "bytes": 16181
+        }
+      ]
+    },
+    "spy-family": {
+      "checkedAt": "2026-09-23T14:51:57.609Z",
+      "observations": [
+        {
+          "sourceUrl": "https://spy-family.net/tvseries/",
+          "checkedAt": "2026-09-23T14:51:57.609Z",
+          "status": 403,
+          "finalUrl": "https://spy-family.net/tvseries/"
+        }
+      ]
+    },
+    "yuki-agency": {
+      "checkedAt": "2026-09-23T14:51:51.248Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.aoni.co.jp/search/yuki-aoi.html",
+          "checkedAt": "2026-09-23T14:51:51.248Z",
+          "error": "fetch failed"
+        }
+      ]
+    },
+    "nozawa-agency": {
+      "checkedAt": "2026-09-23T14:51:55.672Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.aoni.co.jp/search/nozawa-masako.html",
+          "checkedAt": "2026-09-23T14:51:55.672Z",
+          "status": 200,
+          "finalUrl": "https://www.aoni.co.jp/search/nozawa-masako.html",
+          "sha256": "e2946ac9a456f4428748bf50f35f7f31c9edcd7dc8c35c8827c923fcf4b0f125",
+          "bytes": 27075
+        }
+      ]
+    },
+    "spy-2022": {
+      "checkedAt": "2026-09-23T14:52:00.931Z",
+      "observations": [
+        {
+          "sourceUrl": "https://spy-family.net/news/?p=659",
+          "checkedAt": "2026-09-23T14:52:00.931Z",
+          "status": 403,
+          "finalUrl": "https://spy-family.net/news/?p=659"
+        }
+      ]
+    },
+    "kimetsu": {
+      "checkedAt": "2026-09-23T14:52:01.680Z",
+      "observations": [
+        {
+          "sourceUrl": "https://kimetsu.com/anime/risshihen/character/",
+          "checkedAt": "2026-09-23T14:52:01.680Z",
+          "status": 200,
+          "finalUrl": "https://kimetsu.com/anime/risshihen/character/",
+          "sha256": "de23f4bd75c3cfb4a862ee2fdb060ad625edc924a8d739643e920b983006fb17",
+          "bytes": 15279
+        }
+      ]
+    },
+    "jujutsu": {
+      "checkedAt": "2026-09-23T14:52:01.757Z",
+      "observations": [
+        {
+          "sourceUrl": "https://jujutsukaisen.jp/character/",
+          "checkedAt": "2026-09-23T14:52:01.757Z",
+          "status": 403,
+          "finalUrl": "https://jujutsukaisen.jp/character/"
+        }
+      ]
+    },
+    "kusuri": {
+      "checkedAt": "2026-09-23T14:52:01.946Z",
+      "observations": [
+        {
+          "sourceUrl": "https://kusuriyanohitorigoto.jp/season1/",
+          "checkedAt": "2026-09-23T14:52:01.946Z",
+          "status": 403,
+          "finalUrl": "https://kusuriyanohitorigoto.jp/season1/"
+        }
+      ]
+    },
+    "psycho-pass-character": {
+      "checkedAt": "2026-09-23T15:10:51.190Z",
+      "observations": [
+        {
+          "sourceUrl": "https://psycho-pass.com/character/chara01.php",
+          "checkedAt": "2026-09-23T14:52:03.786Z",
+          "status": 403,
+          "finalUrl": "https://psycho-pass.com/character/chara01.php"
+        },
+        {
+          "sourceUrl": "https://psycho-pass.com/archive/staffcast/index.php",
+          "checkedAt": "2026-09-23T15:10:51.190Z",
+          "status": 403,
+          "finalUrl": "https://psycho-pass.com/archive/staffcast/index.php"
+        }
+      ]
+    },
+    "miyano-works-2008": {
+      "checkedAt": "2026-09-23T14:52:03.336Z",
+      "observations": [
+        {
+          "sourceUrl": "https://miyanomamoru.com/s/mm0608/diary/works/list?dy=2008",
+          "checkedAt": "2026-09-23T14:52:03.336Z",
+          "status": 200,
+          "finalUrl": "https://miyanomamoru.com/s/mm0608/diary/works/list?dy=2008",
+          "sha256": "fcfb0e6f162258b96493ff19d1568dd93a7a80ab5a519375d11f0b672fd31e4b",
+          "bytes": 82453
+        }
+      ]
+    },
+    "konosuba-first-cast": {
+      "checkedAt": "2026-09-23T14:52:06.184Z",
+      "observations": [
+        {
+          "sourceUrl": "https://konosuba.com/1st/staff_cast/",
+          "checkedAt": "2026-09-23T14:52:06.184Z",
+          "status": 200,
+          "finalUrl": "https://konosuba.com/1st/staff_cast/",
+          "sha256": "5d303baff2178d6a41793aebd1d87c51abb9d6efe9ac98ef7e702b08a744381a",
+          "bytes": 10242
+        }
+      ]
+    },
+    "re-zero-character": {
+      "checkedAt": "2026-09-23T14:52:07.902Z",
+      "observations": [
+        {
+          "sourceUrl": "https://re-zero-anime.jp/tv/character/",
+          "checkedAt": "2026-09-23T14:52:07.902Z",
+          "status": 200,
+          "finalUrl": "https://re-zero-anime.jp/tv/character/",
+          "sha256": "b0600f611d595f09fe87d27d1f3bcf202d4a4d80e0080cd6932ca77ba12fb4ff",
+          "bytes": 55858
+        }
+      ]
+    },
+    "madoka-tv-character": {
+      "checkedAt": "2026-09-23T14:52:05.571Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.madoka-magica.com/tv/youtube-streaming/character/",
+          "checkedAt": "2026-09-23T14:52:05.571Z",
+          "status": 200,
+          "finalUrl": "https://www.madoka-magica.com/tv/youtube-streaming/character/",
+          "sha256": "5f0a8787cf8b06b49c59d8eecc629919e80b68d529555ad6cd294cac373af2c3",
+          "bytes": 22550
+        }
+      ]
+    },
+    "evangelion-tv-cast": {
+      "checkedAt": "2026-09-23T14:52:08.847Z",
+      "observations": [
+        {
+          "sourceUrl": "https://www.eva-info.jp/5860",
+          "checkedAt": "2026-09-23T14:52:08.847Z",
+          "status": 200,
+          "finalUrl": "https://www.eva-info.jp/5860",
+          "sha256": "f8b4c6eeff3c2923c000c721e815b44367d5907995621c65893b11f10d57153e",
+          "bytes": 88979
+        }
+      ]
+    },
+    "ogata-agency": {
+      "checkedAt": "2026-09-23T14:52:03.361Z",
+      "observations": [
+        {
+          "sourceUrl": "https://breathearts.jp/talent-list/ogata",
+          "checkedAt": "2026-09-23T14:52:03.361Z",
+          "error": "The operation was aborted due to timeout"
+        }
+      ]
+    },
+    "dragon-ball-goku": {
+      "checkedAt": "2026-09-23T14:52:10.075Z",
+      "observations": [
+        {
+          "sourceUrl": "https://dragon-ball-official.com/news/01_2187.html",
+          "checkedAt": "2026-09-23T14:52:10.075Z",
+          "status": 200,
+          "finalUrl": "https://dragon-ball-official.com/news/01_2187.html",
+          "sha256": "58b86d4b586ca4701fbe090eacca85d047fdfcdeb4f85ab497dff957c431b88b",
+          "bytes": 56587
+        }
+      ]
+    }
+  }
+}
