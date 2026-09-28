@@ -13,7 +13,7 @@
 | Role | id, seiyuuId, characterId, animeId, roleType?；官方未分类时只写配音，不能推断主役 |
 | Award | id, name, edition, category, year?；由活动记录引用 |
 | Radio / Music / Event | id, kind, title, role?, date?, url, evidence；事件覆盖舞台、演出和录音出版物 |
-| Source | id, title, source_url, source_type, retrieved_at, verified, confidence；可有 public_url 用于遵守网站链接政策 |
+| Source | id, title, source_url, source_type, retrieved_at, verified, confidence；可有 public_url 用于遵守网站链接政策，accessedAt 用于记录最近访问时间 |
 | Evidence / Fact | value, sourceIds, verified, confidence；重要字段都有 field path 的证据映射 |
 | Image | id, path, kind, creator, license, source, authorization?, alt, width, height；真人图为空时 imageStatus=IMAGE_LICENSE_TODO |
 | MediaAsset（已实现） | id, personId, kind, filename, mimeType, sha256, rights{holder,authorizationRef,allowedUse,startsAt,endsAt,territories,attribution?}, reviewedBy, reviewedAt；肖像有三语 alt / width / height |

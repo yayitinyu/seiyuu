@@ -16,6 +16,7 @@ export interface Source {
   public_url?: string;
   source_type: SourceType;
   retrieved_at: string;
+  accessedAt?: string;
   verified: boolean;
   confidence: "high" | "medium" | "low";
 }

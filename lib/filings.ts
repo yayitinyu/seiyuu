@@ -1,4 +1,5 @@
 export type FilingLink = {
+  kind: "icp" | "mps";
   label: string;
   href: string;
 };
@@ -9,12 +10,13 @@ export function filingLinks(icpNumber?: string, mpsNumber?: string): FilingLink[
   const mps = mpsNumber?.trim();
 
   if (icp) {
-    links.push({ label: icp, href: "https://beian.miit.gov.cn/" });
+    links.push({ kind: "icp", label: icp, href: "https://beian.miit.gov.cn/" });
   }
 
   if (mps) {
     const code = mps.match(/(?:^|\D)(\d{14})(?!\d)/)?.[1];
     links.push({
+      kind: "mps",
       label: mps,
       href: code
         ? `https://beian.mps.gov.cn/#/query/webSearch?code=${code}`

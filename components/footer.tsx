@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { dictionaries, tr } from "@/lib/i18n";
 import { filingLinks } from "@/lib/filings";
 import type { Locale } from "@/lib/types";
@@ -31,8 +32,11 @@ export function Footer({ locale }: { locale: Locale }) {
               className="filing-links"
               aria-label={tr(locale, "备案信息", "届出情報", "Filing information")}
             >
-              {filings.map(({ label, href }) => (
+              {filings.map(({ kind, label, href }) => (
                 <a key={href} href={href} target="_blank" rel="noopener noreferrer">
+                  {kind === "mps" && (
+                    <Image src="/police-filing.png" alt="" width={20} height={20} />
+                  )}
                   {label}
                 </a>
               ))}

@@ -802,6 +802,7 @@ svg {
 .filing-links a {
   display: inline-flex;
   align-items: center;
+  gap: 6px;
   min-height: 28px;
   text-decoration: underline;
   text-decoration-color: var(--line);
